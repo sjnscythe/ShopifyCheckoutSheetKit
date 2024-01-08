@@ -1,0 +1,6 @@
+framework module ShopifyCheckoutSheetKit {
+  umbrella header "ShopifyCheckoutSheetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

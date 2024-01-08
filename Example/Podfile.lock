@@ -1,0 +1,16 @@
+PODS:
+  - ShopifyCheckoutSheetKit (0.1.0)
+
+DEPENDENCIES:
+  - ShopifyCheckoutSheetKit (from `../`)
+
+EXTERNAL SOURCES:
+  ShopifyCheckoutSheetKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShopifyCheckoutSheetKit: 1aaa235271cb3f5dface5770eb802c65e5ccc532
+
+PODFILE CHECKSUM: 777ea0a545e96e1b999c2a78beedc71483e9de73
+
+COCOAPODS: 1.13.0

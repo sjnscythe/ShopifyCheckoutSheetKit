@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138B9152B79663A99983998ADFF522EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D41BB8479B0831B56CD2EF7A24144D4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8041CECB5F44CB84871C9CAD37FE3C /* ReplaceMe.swift */; };
+		1D8CB897DA9B86F04B908EC0AC7503DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3369DA606DFD9B14745D34BF63407E58 /* Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0738DD1B89722D5E6F890CB51F01AF /* Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616A51038D0E5CF782E6C7D769DE5D24 /* ShopifyCheckoutSheetKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36052BD7D8F3378062AC53C254CA8C1E /* ShopifyCheckoutSheetKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A273A2BE777A758CD12F0C67EDAED8 /* ShopifyCheckoutSheetKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E66598A543C106207136EFABC95F07C5 /* ShopifyCheckoutSheetKit-dummy.m */; };
+		973669BED89FBE55FA93FA09B758A55A /* Pods-ShopifyCheckoutSheetKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E622D7FBA4C107E578E4A0DF756344DB /* Pods-ShopifyCheckoutSheetKit_Tests-dummy.m */; };
+		C8E99939D28F207DBE7423A18CB85C7A /* Pods-ShopifyCheckoutSheetKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D424929B11D3EC520C7B628D8614B1EE /* Pods-ShopifyCheckoutSheetKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D49B8CC4E5E20888B3FB2CA46C675FE4 /* Pods-ShopifyCheckoutSheetKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C3D09321E82D8FD71FC2D64279F90F /* Pods-ShopifyCheckoutSheetKit_Example-dummy.m */; };
+		EFC80ABD25A73FCE801441E9AC5C350F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5897B40075C08AF62C3E536788FA038C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E626695884B60FA4A213A04B164EB850;
+			remoteInfo = ShopifyCheckoutSheetKit;
+		};
+		87E4A06D6A2F0A7565A561B643A0E628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8E92219C241F6CCD299BBE76713698;
+			remoteInfo = "Pods-ShopifyCheckoutSheetKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11ABDD5E4E29A50D1C4C48EE8101B507 /* Pods-ShopifyCheckoutSheetKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShopifyCheckoutSheetKit_Tests"; path = Pods_ShopifyCheckoutSheetKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144CB3DC48D3D562FCFA95462D65A6B7 /* Pods-ShopifyCheckoutSheetKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShopifyCheckoutSheetKit_Tests.modulemap"; sourceTree = "<group>"; };
+		1EF0F70E248C925D4F8D8F13FCC52BA1 /* ShopifyCheckoutSheetKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShopifyCheckoutSheetKit-Info.plist"; sourceTree = "<group>"; };
+		1FF7BC64F886C01FE190824A3D4F522B /* Pods-ShopifyCheckoutSheetKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopifyCheckoutSheetKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DC5AA4E17EDD9F580AA7F398DDE770D /* ShopifyCheckoutSheetKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShopifyCheckoutSheetKit.modulemap; sourceTree = "<group>"; };
+		2FED5D54F70DEDD429696265BCD75B8C /* Pods-ShopifyCheckoutSheetKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopifyCheckoutSheetKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36052BD7D8F3378062AC53C254CA8C1E /* ShopifyCheckoutSheetKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShopifyCheckoutSheetKit-umbrella.h"; sourceTree = "<group>"; };
+		3B0738DD1B89722D5E6F890CB51F01AF /* Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D0ECBC5555FF93864A5CEC79D97B23D /* ShopifyCheckoutSheetKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShopifyCheckoutSheetKit.release.xcconfig; sourceTree = "<group>"; };
+		437F9E401C5766CAE1A2D0E2C164254C /* Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D65ACCA1C56A9FF94274379AA6D2B23 /* ShopifyCheckoutSheetKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShopifyCheckoutSheetKit; path = ShopifyCheckoutSheetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D824464F64DC52B03BFB3EE79329CFB /* Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D93331521E8E14A2F4CDA5661C6DCB2 /* Pods-ShopifyCheckoutSheetKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopifyCheckoutSheetKit_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D351942A4AAE8D14576BFBB097FB13C /* ShopifyCheckoutSheetKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ShopifyCheckoutSheetKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E8041CECB5F44CB84871C9CAD37FE3C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ShopifyCheckoutSheetKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8FBB085DDC35AB4925FFE98CFDD03F49 /* Pods-ShopifyCheckoutSheetKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopifyCheckoutSheetKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9245BE4A04185C09794539BEFC466B24 /* Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96156DC06BEEE8975CD1B173EDE5B116 /* Pods-ShopifyCheckoutSheetKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopifyCheckoutSheetKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		9AB6273AAEC7BCE7102CF2FCD712704A /* ShopifyCheckoutSheetKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShopifyCheckoutSheetKit.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A286045C9A42DF0B9DDE4F998B4387FA /* Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B380B0BBCA7D6A16F65D41B3B9F4C568 /* ShopifyCheckoutSheetKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShopifyCheckoutSheetKit-prefix.pch"; sourceTree = "<group>"; };
+		B45561C02FEB36CD82B2E0ACB6348CED /* Pods-ShopifyCheckoutSheetKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopifyCheckoutSheetKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3C3D09321E82D8FD71FC2D64279F90F /* Pods-ShopifyCheckoutSheetKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopifyCheckoutSheetKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D424929B11D3EC520C7B628D8614B1EE /* Pods-ShopifyCheckoutSheetKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopifyCheckoutSheetKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D4848AC2A97605BB8F4FE8986FBC70D8 /* Pods-ShopifyCheckoutSheetKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShopifyCheckoutSheetKit_Example.modulemap"; sourceTree = "<group>"; };
+		DE232933ECDD3812C179BD1D92683AC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E31C65D7C80FA21CC5D45ED629BEFC24 /* Pods-ShopifyCheckoutSheetKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopifyCheckoutSheetKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E622D7FBA4C107E578E4A0DF756344DB /* Pods-ShopifyCheckoutSheetKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopifyCheckoutSheetKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E66598A543C106207136EFABC95F07C5 /* ShopifyCheckoutSheetKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShopifyCheckoutSheetKit-dummy.m"; sourceTree = "<group>"; };
+		E665E5FEE765428205681DE7FB911127 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FA47561C06ED0A2B82C74C5A0C01812D /* Pods-ShopifyCheckoutSheetKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShopifyCheckoutSheetKit_Example"; path = Pods_ShopifyCheckoutSheetKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372ECE71FA9663A896A304902464C6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CB897DA9B86F04B908EC0AC7503DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5934F0F5041C48926FCFF84DE0FC490F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC80ABD25A73FCE801441E9AC5C350F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C690AB5DFBE08E050AA0655418C23DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B9152B79663A99983998ADFF522EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43529E4832265B547D3D11DD8D2F7717 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				523ABB332FF49A36A6B94B95358C2F28 /* Pods-ShopifyCheckoutSheetKit_Example */,
+				7D53CF408388A13B5C9FAD1EBF9D289F /* Pods-ShopifyCheckoutSheetKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48BE1CB318385107744782370E2A0A8C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE232933ECDD3812C179BD1D92683AC5 /* LICENSE */,
+				E665E5FEE765428205681DE7FB911127 /* README.md */,
+				8D351942A4AAE8D14576BFBB097FB13C /* ShopifyCheckoutSheetKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		523ABB332FF49A36A6B94B95358C2F28 /* Pods-ShopifyCheckoutSheetKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D4848AC2A97605BB8F4FE8986FBC70D8 /* Pods-ShopifyCheckoutSheetKit_Example.modulemap */,
+				437F9E401C5766CAE1A2D0E2C164254C /* Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.markdown */,
+				A286045C9A42DF0B9DDE4F998B4387FA /* Pods-ShopifyCheckoutSheetKit_Example-acknowledgements.plist */,
+				C3C3D09321E82D8FD71FC2D64279F90F /* Pods-ShopifyCheckoutSheetKit_Example-dummy.m */,
+				8FBB085DDC35AB4925FFE98CFDD03F49 /* Pods-ShopifyCheckoutSheetKit_Example-frameworks.sh */,
+				6D93331521E8E14A2F4CDA5661C6DCB2 /* Pods-ShopifyCheckoutSheetKit_Example-Info.plist */,
+				D424929B11D3EC520C7B628D8614B1EE /* Pods-ShopifyCheckoutSheetKit_Example-umbrella.h */,
+				B45561C02FEB36CD82B2E0ACB6348CED /* Pods-ShopifyCheckoutSheetKit_Example.debug.xcconfig */,
+				1FF7BC64F886C01FE190824A3D4F522B /* Pods-ShopifyCheckoutSheetKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ShopifyCheckoutSheetKit_Example";
+			path = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63DE9B95501656EDD1F4825FC01C9000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA47561C06ED0A2B82C74C5A0C01812D /* Pods-ShopifyCheckoutSheetKit_Example */,
+				11ABDD5E4E29A50D1C4C48EE8101B507 /* Pods-ShopifyCheckoutSheetKit_Tests */,
+				4D65ACCA1C56A9FF94274379AA6D2B23 /* ShopifyCheckoutSheetKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D53CF408388A13B5C9FAD1EBF9D289F /* Pods-ShopifyCheckoutSheetKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				144CB3DC48D3D562FCFA95462D65A6B7 /* Pods-ShopifyCheckoutSheetKit_Tests.modulemap */,
+				9245BE4A04185C09794539BEFC466B24 /* Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.markdown */,
+				4D824464F64DC52B03BFB3EE79329CFB /* Pods-ShopifyCheckoutSheetKit_Tests-acknowledgements.plist */,
+				E622D7FBA4C107E578E4A0DF756344DB /* Pods-ShopifyCheckoutSheetKit_Tests-dummy.m */,
+				96156DC06BEEE8975CD1B173EDE5B116 /* Pods-ShopifyCheckoutSheetKit_Tests-Info.plist */,
+				3B0738DD1B89722D5E6F890CB51F01AF /* Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h */,
+				2FED5D54F70DEDD429696265BCD75B8C /* Pods-ShopifyCheckoutSheetKit_Tests.debug.xcconfig */,
+				E31C65D7C80FA21CC5D45ED629BEFC24 /* Pods-ShopifyCheckoutSheetKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShopifyCheckoutSheetKit_Tests";
+			path = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Tests";
+			sourceTree = "<group>";
+		};
+		89F47BA1A123B6D71BB0543DD8479CF4 /* ShopifyCheckoutSheetKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E8041CECB5F44CB84871C9CAD37FE3C /* ReplaceMe.swift */,
+				48BE1CB318385107744782370E2A0A8C /* Pod */,
+				FD923D4AC1BA19E55199DCD94222BF91 /* Support Files */,
+			);
+			name = ShopifyCheckoutSheetKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3417E0BE0BD1430C68B0756458A4DE7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89F47BA1A123B6D71BB0543DD8479CF4 /* ShopifyCheckoutSheetKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B3417E0BE0BD1430C68B0756458A4DE7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				63DE9B95501656EDD1F4825FC01C9000 /* Products */,
+				43529E4832265B547D3D11DD8D2F7717 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD923D4AC1BA19E55199DCD94222BF91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5AA4E17EDD9F580AA7F398DDE770D /* ShopifyCheckoutSheetKit.modulemap */,
+				E66598A543C106207136EFABC95F07C5 /* ShopifyCheckoutSheetKit-dummy.m */,
+				1EF0F70E248C925D4F8D8F13FCC52BA1 /* ShopifyCheckoutSheetKit-Info.plist */,
+				B380B0BBCA7D6A16F65D41B3B9F4C568 /* ShopifyCheckoutSheetKit-prefix.pch */,
+				36052BD7D8F3378062AC53C254CA8C1E /* ShopifyCheckoutSheetKit-umbrella.h */,
+				9AB6273AAEC7BCE7102CF2FCD712704A /* ShopifyCheckoutSheetKit.debug.xcconfig */,
+				3D0ECBC5555FF93864A5CEC79D97B23D /* ShopifyCheckoutSheetKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShopifyCheckoutSheetKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60F17C8C3EA9F1731A7C63BB79092C57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E99939D28F207DBE7423A18CB85C7A /* Pods-ShopifyCheckoutSheetKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A218AA2E1AEC975D30D0D2591D460EF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3369DA606DFD9B14745D34BF63407E58 /* Pods-ShopifyCheckoutSheetKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4372A62FB019032F62162A94C10CC7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A51038D0E5CF782E6C7D769DE5D24 /* ShopifyCheckoutSheetKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ADF493FA6B2193F96A5B05532EED882 /* Pods-ShopifyCheckoutSheetKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE5EB7A73C68AB93AC8C0DA12A32478 /* Build configuration list for PBXNativeTarget "Pods-ShopifyCheckoutSheetKit_Tests" */;
+			buildPhases = (
+				A218AA2E1AEC975D30D0D2591D460EF2 /* Headers */,
+				3FFCAAD890382B2C137ABC080F984A05 /* Sources */,
+				5934F0F5041C48926FCFF84DE0FC490F /* Frameworks */,
+				455F0472AA48E7AF9B37D1318A781967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D2DB07E8983F0EB3D92C919BBBC4A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShopifyCheckoutSheetKit_Tests";
+			productName = Pods_ShopifyCheckoutSheetKit_Tests;
+			productReference = 11ABDD5E4E29A50D1C4C48EE8101B507 /* Pods-ShopifyCheckoutSheetKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A8E92219C241F6CCD299BBE76713698 /* Pods-ShopifyCheckoutSheetKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA2DD258281A93A001673F0FDCAEEE0 /* Build configuration list for PBXNativeTarget "Pods-ShopifyCheckoutSheetKit_Example" */;
+			buildPhases = (
+				60F17C8C3EA9F1731A7C63BB79092C57 /* Headers */,
+				AC1A3AB67D96034B4377F62AE988A887 /* Sources */,
+				C690AB5DFBE08E050AA0655418C23DF0 /* Frameworks */,
+				5BD6A34A993D15FC9E6EA5DCDA175741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59307C906A87C8BD039900099EF7FA37 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShopifyCheckoutSheetKit_Example";
+			productName = Pods_ShopifyCheckoutSheetKit_Example;
+			productReference = FA47561C06ED0A2B82C74C5A0C01812D /* Pods-ShopifyCheckoutSheetKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E626695884B60FA4A213A04B164EB850 /* ShopifyCheckoutSheetKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23F70A564F3DA21922C966EEB0B8A46 /* Build configuration list for PBXNativeTarget "ShopifyCheckoutSheetKit" */;
+			buildPhases = (
+				F4372A62FB019032F62162A94C10CC7D /* Headers */,
+				5BD62821A97599B3C44CC6AD23B94B70 /* Sources */,
+				372ECE71FA9663A896A304902464C6AE /* Frameworks */,
+				245E8FCCCF9C387E08D0A7B59C770030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopifyCheckoutSheetKit;
+			productName = ShopifyCheckoutSheetKit;
+			productReference = 4D65ACCA1C56A9FF94274379AA6D2B23 /* ShopifyCheckoutSheetKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 63DE9B95501656EDD1F4825FC01C9000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8E92219C241F6CCD299BBE76713698 /* Pods-ShopifyCheckoutSheetKit_Example */,
+				2ADF493FA6B2193F96A5B05532EED882 /* Pods-ShopifyCheckoutSheetKit_Tests */,
+				E626695884B60FA4A213A04B164EB850 /* ShopifyCheckoutSheetKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		245E8FCCCF9C387E08D0A7B59C770030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455F0472AA48E7AF9B37D1318A781967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD6A34A993D15FC9E6EA5DCDA175741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFCAAD890382B2C137ABC080F984A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973669BED89FBE55FA93FA09B758A55A /* Pods-ShopifyCheckoutSheetKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD62821A97599B3C44CC6AD23B94B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41BB8479B0831B56CD2EF7A24144D4 /* ReplaceMe.swift in Sources */,
+				77A273A2BE777A758CD12F0C67EDAED8 /* ShopifyCheckoutSheetKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A3AB67D96034B4377F62AE988A887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49B8CC4E5E20888B3FB2CA46C675FE4 /* Pods-ShopifyCheckoutSheetKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D2DB07E8983F0EB3D92C919BBBC4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShopifyCheckoutSheetKit_Example";
+			target = 9A8E92219C241F6CCD299BBE76713698 /* Pods-ShopifyCheckoutSheetKit_Example */;
+			targetProxy = 87E4A06D6A2F0A7565A561B643A0E628 /* PBXContainerItemProxy */;
+		};
+		59307C906A87C8BD039900099EF7FA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShopifyCheckoutSheetKit;
+			target = E626695884B60FA4A213A04B164EB850 /* ShopifyCheckoutSheetKit */;
+			targetProxy = 5897B40075C08AF62C3E536788FA038C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C0F734C1393F36A4FF486A0D8A364FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF7BC64F886C01FE190824A3D4F522B /* Pods-ShopifyCheckoutSheetKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Example/Pods-ShopifyCheckoutSheetKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Example/Pods-ShopifyCheckoutSheetKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21920092283B065A96E529B50D96C091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0ECBC5555FF93864A5CEC79D97B23D /* ShopifyCheckoutSheetKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit.modulemap";
+				PRODUCT_MODULE_NAME = ShopifyCheckoutSheetKit;
+				PRODUCT_NAME = ShopifyCheckoutSheetKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		662147102B00BD64D8729C2538107AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB6273AAEC7BCE7102CF2FCD712704A /* ShopifyCheckoutSheetKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShopifyCheckoutSheetKit/ShopifyCheckoutSheetKit.modulemap";
+				PRODUCT_MODULE_NAME = ShopifyCheckoutSheetKit;
+				PRODUCT_NAME = ShopifyCheckoutSheetKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BC7893FFE056B67982B531A041C7907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FED5D54F70DEDD429696265BCD75B8C /* Pods-ShopifyCheckoutSheetKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Tests/Pods-ShopifyCheckoutSheetKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Tests/Pods-ShopifyCheckoutSheetKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7165E1F07F68E898709B79CABF0BF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31C65D7C80FA21CC5D45ED629BEFC24 /* Pods-ShopifyCheckoutSheetKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Tests/Pods-ShopifyCheckoutSheetKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Tests/Pods-ShopifyCheckoutSheetKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E024F087F489DAAA799551D0BF0DB6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45561C02FEB36CD82B2E0ACB6348CED /* Pods-ShopifyCheckoutSheetKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Example/Pods-ShopifyCheckoutSheetKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopifyCheckoutSheetKit_Example/Pods-ShopifyCheckoutSheetKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE5EB7A73C68AB93AC8C0DA12A32478 /* Build configuration list for PBXNativeTarget "Pods-ShopifyCheckoutSheetKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7893FFE056B67982B531A041C7907 /* Debug */,
+				C7165E1F07F68E898709B79CABF0BF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23F70A564F3DA21922C966EEB0B8A46 /* Build configuration list for PBXNativeTarget "ShopifyCheckoutSheetKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662147102B00BD64D8729C2538107AD9 /* Debug */,
+				21920092283B065A96E529B50D96C091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA2DD258281A93A001673F0FDCAEEE0 /* Build configuration list for PBXNativeTarget "Pods-ShopifyCheckoutSheetKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E024F087F489DAAA799551D0BF0DB6FB /* Debug */,
+				1C0F734C1393F36A4FF486A0D8A364FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
